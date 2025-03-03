@@ -1,0 +1,44 @@
+---
+shared:
+  var1:
+    title: "var1"
+    description: "CAP变量，由项目创建模板时自动生成"
+    type: "string"
+    sensitive: false
+    default: "value1"
+    required: true
+  var2:
+    title: "var2"
+    description: "CAP变量，由项目创建模板时自动生成"
+    type: "string"
+    sensitive: true
+    required: true
+services:
+  function:
+    self_var1:
+      title: "self_var1"
+      description: "CAP变量，由项目创建模板时自动生成"
+      type: "string"
+      sensitive: false
+      default: "self_value1"
+      required: true
+    self_var2:
+      title: "self_var2"
+      description: "CAP变量，由项目创建模板时自动生成"
+      type: "string"
+      sensitive: true
+      required: true
+  web-function:
+    self_var1:
+      title: "self_var1"
+      description: "CAP变量，由项目创建模板时自动生成"
+      type: "string"
+      sensitive: false
+      default: "self_value1"
+      required: true
+    self_var2:
+      title: "self_var2"
+      description: "CAP变量，由项目创建模板时自动生成"
+      type: "string"
+      sensitive: true
+      required: true
